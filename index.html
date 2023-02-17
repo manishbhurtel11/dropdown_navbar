@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar Tutorial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            Nav <p class="logofont">Bar</p>
+        </div>
+        <div class="contents">
+            <ul>
+                <div class="container">
+                    <div class="box"><li>HOME</li></div>
+                    <div class="box"><li>ABOUT</li></div>
+                    <div class="box"><li>BLOG</li></div>
+                    <div class="wrapper">
+                        <div class="box" id="box4"><li>GOODS <i class="fa-solid fa-plus"></i></li></div>
+                        <div id="dropdown">
+                            <ul>
+                                <div class="box"><li>MOBILE</li></div>
+                                <div class="box"><li>PC</li></div>
+                                <div class="box"><li>LAPTOP</li></div>
+                                <div class="box"><li>TABLET</li></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box contactbox"><li>CONTACT</li></div>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</body>
+</html>
